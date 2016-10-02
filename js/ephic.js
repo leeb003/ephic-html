@@ -50,9 +50,6 @@
  	});
 
 	/* To Top display */
-	$(document).ready( function() {
-		checkScroll();
-	});
 	$(window).scroll(function() {
 		checkScroll();
 	});
@@ -178,6 +175,8 @@
 
 
 	$(document).ready(function() {
+		/* To Top visibility */
+		checkScroll();
 		/* Call hoverNavLinks function */
 		hoverNavLinks();
 

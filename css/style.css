@@ -514,7 +514,6 @@ h6 {
   display: flex;
   -webkit-align-items: center;
   align-items: center;
-  pointer-events: none;
 }
 .top-info-sect {
   padding: 30px;
