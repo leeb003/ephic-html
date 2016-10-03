@@ -1343,6 +1343,15 @@ span.sep {
 .sb-smdate {
   font-size: 14px;
 }
+@media (max-width: 1200px) {
+  .recent_entry .sb-title {
+    padding-left: 10px;
+  }
+  .recent_entry .sb-smdate {
+    float: left;
+    clear: both;
+  }
+}
 /*
  * === 6. BLOG SINGLE ENTRY PAGE ===
  */
@@ -1424,6 +1433,12 @@ li > div.comment {
   top: 0px;
   right: 0;
 }
+@media (max-width: 768px) {
+  .comment-actions {
+    position:static;
+  }
+}
+
 .comment-actions a {
   display: inline-block;
   background: #ccc;
